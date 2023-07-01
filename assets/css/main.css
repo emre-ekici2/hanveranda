@@ -10,8 +10,8 @@
 /* Colors */
 :root {
   --color-default: #364d59;
-  --color-primary: #feb900;
-  --color-secondary: #52565e;
+  --color-primary: #f5c542;
+  --color-secondary: #38352c;
 }
 
 /* Smooth scroll behavior */
@@ -171,6 +171,8 @@ section {
   border-radius: 4px;
   transition: all 0.4s;
 }
+
+
 
 .scroll-top i {
   font-size: 24px;
@@ -525,38 +527,7 @@ section {
 
 
 
-/*--------------------------------------------------------------
-# Products Section
---------------------------------------------------------------*/
-.products .card-item {
-  border: 1px solid rgba(82, 86, 94, 0.2);
-  background: #fff;
-  position: relative;
-  border-radius: 0;
-}
 
-.products .card-item .card-bg {
-  min-height: 300px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.products .card-item .card-body {
-  padding: 30px;
-}
-
-.products .card-item h4 {
-  font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 15px;
-  color: var(--color-secondary);
-}
-
-.products .card-item p {
-  color: var(--color-secondary);
-  margin: 0;
-}
 
 /*--------------------------------------------------------------
 # Services Section
@@ -629,13 +600,99 @@ section {
 }
 
 /*--------------------------------------------------------------
+# individual-project Section
+--------------------------------------------------------------*/
+.individual-project h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--font-secondary);
+  margin: 30px 0;
+}
+
+@media (min-width: 991px) {
+  .individual-project h2 {
+    max-width: 65%;
+    margin: 0 0 80px 0;
+  }
+}
+
+.individual-project .our-product {
+  padding: 40px;
+  background-color: #f5f6f7;
+}
+
+@media (min-width: 991px) {
+  .individual-project .our-product {
+    padding-right: 35%;
+  }
+}
+
+.individual-project .our-product h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #838893;
+}
+
+.individual-project .our-product h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--color-secondary);
+}
+
+.individual-project .our-product p:last-child {
+  margin-bottom: 0;
+}
+
+.individual-project ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.individual-project ul li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.individual-project ul i {
+  font-size: 20px;
+  margin-right: 4px;
+  color: var(--color-primary);
+}
+
+
+
+.individual-project .individual-project-img {
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 992px) {
+  .individual-project .individual-project-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
-.materials .nav-tabs {
+.offerte .nav-tabs {
   border: 0;
 }
 
-.materials .nav-link {
+.offerte .nav-link {
   padding: 15px 0;
   transition: 0.3s;
   color: var(--color-secondary);
@@ -649,38 +706,38 @@ section {
   border-bottom: 4px solid #e2e4e6;
 }
 
-.materials .nav-link i {
+.offerte .nav-link i {
   padding-right: 15px;
   font-size: 48px;
 }
 
-.materials .nav-link h4 {
+.offerte .nav-link h4 {
   font-size: 18px;
   font-weight: 600;
   margin: 0;
 }
 
 @media (max-width: 575px) {
-  .materials .nav-link h4 {
+  .offerte .nav-link h4 {
     font-size: 16px;
   }
 }
 
-.materials .nav-link:hover {
+.offerte .nav-link:hover {
   color: var(--color-primary);
 }
 
-.materials .nav-link.active {
+.offerte .nav-link.active {
   color: var(--color-primary);
   background-color: transparent;
   border-color: var(--color-primary);
 }
 
-.materials .tab-content {
+.offerte .tab-content {
   margin-top: 30px;
 }
 
-.materials .tab-pane h3 {
+.offerte .tab-pane h3 {
   font-weight: 700;
   font-size: 32px;
   position: relative;
@@ -688,7 +745,7 @@ section {
   padding-bottom: 20px;
 }
 
-.materials .tab-pane h3:after {
+.offerte .tab-pane h3:after {
   content: "";
   position: absolute;
   display: block;
@@ -699,23 +756,28 @@ section {
   bottom: 0;
 }
 
-.materials .tab-pane ul {
+.offerte .tab-pane ul {
   list-style: none;
   padding: 0;
 }
 
-.materials .tab-pane ul li {
+.offerte .tab-pane ul li {
   padding-top: 10px;
 }
 
-.materials .tab-pane ul i {
+.offerte .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
   color: var(--color-primary);
 }
 
-.materials .tab-pane p:last-child {
+.offerte .tab-pane p:last-child {
   margin-bottom: 0;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
