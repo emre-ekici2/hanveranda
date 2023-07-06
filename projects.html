@@ -1,338 +1,530 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Onze Projecten</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Onze Projecten</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1>HanVeranda<span>.</span></h1>
+        </a>
 
-</head>
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Producten</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li><a href="veranda.html">Veranda</a></li>
+                <li><a href="carport.html">Carport</a></li>
+                <li><a href="zonweringen.html">Zonweringen</a></li>
+                <li><a href="glazen.html">Glazen Schuifwanden</a></li>
+                <li><a href="zijwanden.html">Zijwanden</a></li>
+              </ul>
+            </li>
+            <li><a href="projects.html" class="active">Projecten</a></li>
 
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>HanVeranda<span>.</span></h1>
-      </a>
-
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html" >Home</a></li>
-          <li class="dropdown"><a href="#"><span>Producten</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="veranda.html">Veranda</a></li>
-              <li><a href="carport.html">Carport</a></li>
-              <li><a href="zonweringen.html">Zonweringen</a></li>
-              <li><a href="glazen.html">Glazen Schuifwanden</a></li>
-              <li><a href="zijwanden.html">Zijwanden</a></li>
-            </ul>
-          </li>
-          <li><a href="projects.html" class="active">Projecten</a></li>
-          
-          <li class="dropdown"><a href="#"><span>Contact</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="https://wa.me/31687414915?text=Hallo"><i class="fa-brands fa-whatsapp fa-lg"></i> WhatsApp</a></li>
-              <li><a href="mailto: emre.ekici2a@gmail.com"><i class="fa fa-envelope"></i>E-mail</a></li>
-              <li><a href="offertes.html"><i class="fa fa-clipboard-question"></i>Offerte Aanvragen</a></li>
-            
-            </ul>
-          </li>        </ul>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/veranda1.jpg');">
-      <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
-
-        <h2>Onze Projecten</h2>
-        <ol>
-          <li><a href="index.html">Startpagina</a></li>
-          <li>Projecten</li>
-        </ol>
-
+            <li class="dropdown">
+              <a href="#"
+                ><span>Contact</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li>
+                  <a href="https://wa.me/31687414915?text=Hallo"
+                    ><i class="fa-brands fa-whatsapp fa-lg"></i> WhatsApp</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto: emre.ekici2a@gmail.com"
+                    ><i class="fa fa-envelope"></i>E-mail</a
+                  >
+                </li>
+                <li>
+                  <a href="offertes.html"
+                    ><i class="fa fa-clipboard-question"></i>Offerte
+                    Aanvragen</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
       </div>
-    </div><!-- End Breadcrumbs -->
+    </header>
+    <!-- End Header -->
 
-        <!-- ======= Our Projects Section ======= -->
-        <section id="projects" class="projects">
-            <div class="container" data-aos="fade-up">
-      
-              <div class="section-header">
-                <h2>Onze Projecten</h2>
-                <p>
-                    Hieronder kunt u een verzameling van onze projecten bekijken en ze ook filteren op basis van het product dat u het meest interesseert.
-                    Klik op het icoon om de afbeelding te vergroten of om een ​​offerte aan te vragen voor uw eigen project</p>
+    <main id="main">
+      <!-- ======= Breadcrumbs ======= -->
+      <div
+        class="breadcrumbs d-flex align-items-center"
+        style="background-image: url('assets/img/veranda1.jpg')"
+      >
+        <div
+          class="container position-relative d-flex flex-column align-items-center"
+          data-aos="fade"
+        >
+          <h2>Onze Projecten</h2>
+          <ol>
+            <li><a href="index.html">Startpagina</a></li>
+            <li>Projecten</li>
+          </ol>
+        </div>
+      </div>
+      <!-- End Breadcrumbs -->
+
+      <!-- ======= Our Projects Section ======= -->
+      <section id="projects" class="projects">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Onze Projecten</h2>
+            <p>
+              Hieronder kunt u een verzameling van onze projecten bekijken en ze
+              ook filteren op basis van het product dat u het meest
+              interesseert. Klik op het icoon om de afbeelding te vergroten of
+              om een ​​offerte aan te vragen voor uw eigen project
+            </p>
+          </div>
+
+          <div
+            class="projectitem-isotope"
+            data-projectitem-filter="*"
+            data-projectitem-layout="masonry"
+            data-projectitem-sort="original-order"
+          >
+            <ul
+              class="projectitem-flters"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-veranda">Veranda</li>
+              <li data-filter=".filter-carport">Carport</li>
+              <li data-filter=".filter-glass">Glazen Schuifwanden</li>
+              <li data-filter=".filter-sun">Zonweringen</li>
+              <li data-filter=".filter-side">Zijwanden</li>
+            </ul>
+            <!-- End Projects Filters -->
+
+            <div
+              class="row gy-4 projectitem-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="col-lg-4 col-md-6 projectitem-item filter-veranda">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/veranda1.jpg"
+                    class="img-fluid"
+                    alt="Veranda"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Veranda</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/veranda1.jpg"
+                      title="Veranda"
+                      data-gallery="projectitem-gallery-veranda"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
               </div>
-      
-              <div class="projectitem-isotope" data-projectitem-filter="*" data-projectitem-layout="masonry" data-projectitem-sort="original-order">
-      
-                <ul class="projectitem-flters" data-aos="fade-up" data-aos-delay="100">
-                  <li data-filter="*" class="filter-active">All</li>
-                  <li data-filter=".filter-veranda">Veranda</li>
-                  <li data-filter=".filter-carport">Carport</li>
-                  <li data-filter=".filter-glass">Glazen Schuifwanden</li>
-                  <li data-filter=".filter-sun">Zonweringen</li>
-                  <li data-filter=".filter-side">Zijwanden</li>
-      
-                </ul><!-- End Projects Filters -->
-      
-                <div class="row gy-4 projectitem-container" data-aos="fade-up" data-aos-delay="200">
-      
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-veranda">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/veranda1.jpg" class="img-fluid" alt="Veranda">
-                      <div class="projectitem-info">
-                        <h4>Veranda</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/veranda1.jpg" title="Veranda" data-gallery="projectitem-gallery-veranda" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-      
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-veranda">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/veranda2.webp" class="img-fluid" alt="Veranda">
-                      <div class="projectitem-info">
-                        <h4>Veranda</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/veranda2.webp" title="Veranda" data-gallery="projectitem-gallery-veranda" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-      
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-veranda">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/veranda3.jpg" class="img-fluid" alt="Veranda">
-                      <div class="projectitem-info">
-                        <h4>Veranda</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/veranda3.jpg" title="Veranda" data-gallery="projectitem-gallery-veranda" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-      
-      
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-carport">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/car1.jpg" class="img-fluid" alt="Carport">
-                      <div class="projectitem-info">
-                        <h4>Carport</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/car1.jpg" title="Carport" data-gallery="projectitem-gallery-carport" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-      
-                  
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-carport">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/car2.jpg" class="img-fluid" alt="Carport">
-                      <div class="projectitem-info">
-                        <h4>Carport</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/car2.jpg" title="Carport" data-gallery="projectitem-gallery-carport" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-      
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-glass">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/glass1.jpg" class="img-fluid" alt="Glazen Schuifwanden">
-                      <div class="projectitem-info">
-                        <h4>Glazen Schuifwanden</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/glass1.jpg" title="Glazen Schuifwanden" data-gallery="projectitem-gallery-glass" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-      
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-glass">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/glass2.jpg" class="img-fluid" alt="Glazen Schuifwanden">
-                      <div class="projectitem-info">
-                        <h4>Glazen Schuifwanden</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/glass2.jpg" title="Glazen Schuifwanden" data-gallery="projectitem-gallery-glass" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-      
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-glass">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/glass3.jpg" class="img-fluid" alt="Glazen Schuifwanden">
-                      <div class="projectitem-info">
-                        <h4>Glazen Schuifwanden</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/glass3.jpg" title="Glazen Schuifwanden" data-gallery="projectitem-gallery-glass" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-      
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-sun">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/sun1.jpg" class="img-fluid" alt="Zonweringen">
-                      <div class="projectitem-info">
-                        <h4>Zonweringen</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/sun1.jpg" title="Zonweringen" data-gallery="projectitem-gallery-sun" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-                  
-      
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-sun">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/sun2.jpg" class="img-fluid" alt="Zonweringen">
-                      <div class="projectitem-info">
-                        <h4>Zonweringen</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/sun2.jpg" title="Zonweringen" data-gallery="projectitem-gallery-sun" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-      
-      
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-side">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/side1.jpg" class="img-fluid" alt="Zijwanden">
-                      <div class="projectitem-info">
-                        <h4>Zijwanden</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/side1.jpg" title="Zijwanden" data-gallery="projectitem-gallery-side" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-      
-                  <div class="col-lg-4 col-md-6 projectitem-item filter-side">
-                    <div class="projectitem-content h-100">
-                      <img src="assets/img/projects/side2.jpg" class="img-fluid" alt="Zijwanden">
-                      <div class="projectitem-info">
-                        <h4>Zijwanden</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                        <a href="assets/img/projects/side2.jpg" title="Zijwanden" data-gallery="projectitem-gallery-side" class="glightbox preview-link"><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i></a>
-                        <a href="#" title="Offerte Aanvragen" class="offer-link"><i class="fa fa-clipboard-question "></i></a>
-      
-                      </div>
-                    </div>
-                  </div><!-- End Projects Item -->
-      
-                </div><!-- End Projects Container -->
-      
+              <!-- End Projects Item -->
+
+              <div class="col-lg-4 col-md-6 projectitem-item filter-veranda">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/veranda2.webp"
+                    class="img-fluid"
+                    alt="Veranda"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Veranda</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/veranda2.webp"
+                      title="Veranda"
+                      data-gallery="projectitem-gallery-veranda"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
               </div>
-      
+              <!-- End Projects Item -->
+
+              <div class="col-lg-4 col-md-6 projectitem-item filter-veranda">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/veranda3.jpg"
+                    class="img-fluid"
+                    alt="Veranda"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Veranda</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/veranda3.jpg"
+                      title="Veranda"
+                      data-gallery="projectitem-gallery-veranda"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Projects Item -->
+
+              <div class="col-lg-4 col-md-6 projectitem-item filter-carport">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/car1.jpg"
+                    class="img-fluid"
+                    alt="Carport"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Carport</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/car1.jpg"
+                      title="Carport"
+                      data-gallery="projectitem-gallery-carport"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Projects Item -->
+
+              <div class="col-lg-4 col-md-6 projectitem-item filter-carport">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/car2.jpg"
+                    class="img-fluid"
+                    alt="Carport"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Carport</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/car2.jpg"
+                      title="Carport"
+                      data-gallery="projectitem-gallery-carport"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Projects Item -->
+
+              <div class="col-lg-4 col-md-6 projectitem-item filter-glass">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/glass1.jpg"
+                    class="img-fluid"
+                    alt="Glazen Schuifwanden"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Glazen Schuifwanden</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/glass1.jpg"
+                      title="Glazen Schuifwanden"
+                      data-gallery="projectitem-gallery-glass"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Projects Item -->
+
+              <div class="col-lg-4 col-md-6 projectitem-item filter-glass">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/glass2.jpg"
+                    class="img-fluid"
+                    alt="Glazen Schuifwanden"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Glazen Schuifwanden</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/glass2.jpg"
+                      title="Glazen Schuifwanden"
+                      data-gallery="projectitem-gallery-glass"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Projects Item -->
+
+              <div class="col-lg-4 col-md-6 projectitem-item filter-glass">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/glass3.jpg"
+                    class="img-fluid"
+                    alt="Glazen Schuifwanden"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Glazen Schuifwanden</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/glass3.jpg"
+                      title="Glazen Schuifwanden"
+                      data-gallery="projectitem-gallery-glass"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Projects Item -->
+
+              <div class="col-lg-4 col-md-6 projectitem-item filter-sun">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/sun1.jpg"
+                    class="img-fluid"
+                    alt="Zonweringen"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Zonweringen</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/sun1.jpg"
+                      title="Zonweringen"
+                      data-gallery="projectitem-gallery-sun"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Projects Item -->
+
+              <div class="col-lg-4 col-md-6 projectitem-item filter-sun">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/sun2.jpg"
+                    class="img-fluid"
+                    alt="Zonweringen"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Zonweringen</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/sun2.jpg"
+                      title="Zonweringen"
+                      data-gallery="projectitem-gallery-sun"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Projects Item -->
+
+              <div class="col-lg-4 col-md-6 projectitem-item filter-side">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/side1.jpg"
+                    class="img-fluid"
+                    alt="Zijwanden"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Zijwanden</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/side1.jpg"
+                      title="Zijwanden"
+                      data-gallery="projectitem-gallery-side"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Projects Item -->
+
+              <div class="col-lg-4 col-md-6 projectitem-item filter-side">
+                <div class="projectitem-content h-100">
+                  <img
+                    src="assets/img/projects/side2.jpg"
+                    class="img-fluid"
+                    alt="Zijwanden"
+                  />
+                  <div class="projectitem-info">
+                    <h4>Zijwanden</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a
+                      href="assets/img/projects/side2.jpg"
+                      title="Zijwanden"
+                      data-gallery="projectitem-gallery-side"
+                      class="glightbox preview-link"
+                      ><i class="mt-3 fa fa-arrows-up-down-left-right fa-lg"></i
+                    ></a>
+                    <a href="#" title="Offerte Aanvragen" class="offer-link"
+                      ><i class="fa fa-clipboard-question"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Projects Item -->
             </div>
-          </section><!-- End Our Projects Section -->
+            <!-- End Projects Container -->
+          </div>
+        </div>
+      </section>
+      <!-- End Our Projects Section -->
+    </main>
+    <!-- End #main -->
 
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="footer-content position-relative">
-
-         
-            <div class="footer-info">
-              <div></div>
-              <h3><span>Han</span>Veranda</h3>
-              <p>
-                Eindhoven
-                <br>
-                <strong>Telefoon:</strong> +31 6 874 149 15<br>
-                <strong>Email:</strong> emre.ekici2a@gmail.com<br>
-              </p>
-              <div class="row">
-              <div class="social-links mt-3 ">
-                <a href="#" ><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="https://wa.me/31687414915?text=Hallo"><i class="fa-brands fa-whatsapp"></i></a>
-
-              </div>
-              <div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-content position-relative">
+        <div class="footer-info">
+          <div></div>
+          <h3><span>Han</span>Veranda</h3>
+          <p>
+            Kuiperbergstraat 10 5628DK EİNDHOVEN/NEDERLAND
+            <br />
+            <strong>Telefoon:</strong> +31 6 874 149 15<br />
+            <strong>Email:</strong> hanveranda@gmail.com<br />
+          </p>
+          <div class="row">
+            <div class="social-links mt-3">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="https://wa.me/31687414915?text=Hallo"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
             </div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
 
-    </div>
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  
+    <a
+      href="offertes.html"
+      class="offerte-btn d-flex align-items-center justify-content-center"
+      >Gratis offerte aanvragen</a
+    >
 
-  </footer>
-  <!-- End Footer -->
+    <div id="preloader"></div>
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 
-  <a href="offertes.html" class="offerte-btn d-flex align-items-center justify-content-center" >Gratis offerte aanvragen</a>
-
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
